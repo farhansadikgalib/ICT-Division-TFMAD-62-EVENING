@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:registrationpage_evening/28-10-2021/SplashScreen.dart';
+import 'package:registrationpage_evening/02-11-21%20Class-23/SplashAgain.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,9 +16,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
 
-        primarySwatch: Colors.green,
+        primarySwatch: Colors.red,
       ),
-      home: SplashScreen()
+      home: SplashPageAgain()
     );
   }
 }
