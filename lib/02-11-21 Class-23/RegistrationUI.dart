@@ -21,11 +21,20 @@ class _RegistrationUIState extends State<RegistrationUI> {
   var passwordController = TextEditingController();
 
 
+  var name,address,phone,email,password;
+
+
   _handleSignUpButton(){
 
     if(formKey.currentState!.validate()){
 
       formKey.currentState!.save();
+
+      print("Name:${this.name}");
+      print("Address:${this.address}");
+      print("Phone:${this.phone}");
+      print("Email:${this.email}");
+      print("Password:${this.password}");
 
     }
 
@@ -70,9 +79,15 @@ class _RegistrationUIState extends State<RegistrationUI> {
                     decoration: InputDecoration(
 
                       labelText: 'Enter Your Name',
-                      hintText: 'Input Your Name'
+                      hintText: 'Input Your Name',
+
+
 
                     ),
+
+                    onSaved: (value){
+                    this.name = value;
+                    },
 
                     validator: (value){
                     if(value!.isEmpty){
@@ -95,6 +110,10 @@ class _RegistrationUIState extends State<RegistrationUI> {
 
                     ),
 
+                      onSaved: (value){
+                this.address = value;
+                },
+
                     validator: (value){
                       if(value!.isEmpty){
                         return ("Please Enter Your Address Here!");
@@ -116,6 +135,10 @@ class _RegistrationUIState extends State<RegistrationUI> {
                       labelText: 'Enter Your Phone Number',
 
                     ),
+                    onSaved: (value){
+                      this.phone = value;
+                    },
+
                     validator: (value){
                       if(value!.isEmpty){
                         return ("Please Enter Your Phone Number Here!");
@@ -135,6 +158,10 @@ class _RegistrationUIState extends State<RegistrationUI> {
                       labelText: 'Enter Your Email Address',
 
                     ),
+
+                    onSaved: (value){
+                      this.email = value;
+                    },
                     validator: (value){
                       if(value!.isEmpty){
                         return ("Please Enter Your Email Address Here!");
@@ -154,6 +181,9 @@ class _RegistrationUIState extends State<RegistrationUI> {
                       labelText: 'Enter Your Password',
 
                     ),
+                    onSaved: (value){
+                      this.password = value;
+                    },
 
                     validator: (value){
                       if(value!.isEmpty){

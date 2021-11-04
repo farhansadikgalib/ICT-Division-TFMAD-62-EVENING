@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:registrationpage_evening/02-11-21%20Class-23/RegistrationUI.dart';
 
 class SplashPageAgain extends StatefulWidget {
@@ -19,7 +20,7 @@ class _SplashPageAgainState extends State<SplashPageAgain> {
     super.initState();
 
     Timer(
-        Duration(seconds: 3),
+        Duration(seconds: 20),
         () => Navigator.pushAndRemoveUntil(
             context,
             MaterialPageRoute(builder: (context) => RegistrationUI()),
@@ -39,6 +40,7 @@ class _SplashPageAgainState extends State<SplashPageAgain> {
 
           children: [
 
+            SizedBox(height: 50,),
 
             Image.network('http://t2.gstatic.com/images?q=tbn:ANd9GcTotCbOIUt9xNehNqt4yAd8x19i3mo0Of_xccsc6V2KBh7j2W7B'),
 
@@ -48,8 +50,10 @@ class _SplashPageAgainState extends State<SplashPageAgain> {
 
             SizedBox(height: 50,),
 
-            CircularProgressIndicator(color: Colors.redAccent,),
+            // CircularProgressIndicator(color: Colors.redAccent,),
 
+          SpinKitFoldingCube(color: Colors.red,),
+            SizedBox(height: 50,),
 
 
 
