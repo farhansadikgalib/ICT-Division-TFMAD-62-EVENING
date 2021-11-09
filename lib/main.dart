@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:registrationpage_evening/02-11-21%20Class-23/SplashAgain.dart';
 import 'package:registrationpage_evening/07-11-21%20class-25/Contactlist.dart';
+import 'package:registrationpage_evening/09-11-21%20Class-26/LibraryWithText.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.red,
       ),
-      home: Contactlist()
+      home: LibraryWithText()
     );
   }
 }
