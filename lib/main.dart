@@ -5,6 +5,7 @@ import 'package:registrationpage_evening/09-11-21%20Class-26/LibraryWithText.dar
 import 'package:registrationpage_evening/14-11-21%20Class-27/GridViewWithCardDesign.dart';
 import 'package:registrationpage_evening/14-11-21%20Class-27/GridWithItemLists.dart';
 import 'package:registrationpage_evening/18-11-21%20Class-29/LocalJsonWithSearchBar.dart';
+import 'package:registrationpage_evening/23-11-21%20Class%2030/StackAndMediaQuery.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.red,
       ),
-      home: LocalJsonWithSearchbar()
+      home: SackAndMediaQuery()
     );
   }
 }
