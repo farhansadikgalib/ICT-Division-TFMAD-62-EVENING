@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "589054470220",
+    "firebase_url": "https://fir-mad-63-default-rtdb.firebaseio.com",
+    "project_id": "fir-mad-63",
+    "storage_bucket": "fir-mad-63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589054470220:android:055810eea34ea16dd06ce9",
+        "android_client_info": {
+          "package_name": "com.farhan.registrationpage_evening"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589054470220-3p6pgkee1424t50hfv06t3ec0ksck3t7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farhan.registrationpage_evening",
+            "certificate_hash": "3f7ae93b43794e40429d4f00526501ed4a0bcd47"
+          }
+        },
+        {
+          "client_id": "589054470220-58qgl3mrbtvsvs7iefbhrmon7gcgieop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQCxEJJsMEO2qBSfPbrmv4SveN0VJWeOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589054470220-58qgl3mrbtvsvs7iefbhrmon7gcgieop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
