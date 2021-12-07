@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:registrationpage_evening/05-12-21%20Class%2034/firebaseWithUserRegistration.dart';
+import 'package:registrationpage_evening/07-12-21%20Class%2035/Screen/GoogleLoginPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.red,
       ),
-      home: FirebaseWithUserRegistration()
+      home: GoogleLoginWithProviderPage()
     );
   }
 }
